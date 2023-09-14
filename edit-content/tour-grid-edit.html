@@ -421,22 +421,14 @@
             <div class="container-fluid">
                 <div class="col-lg-12">
 
-
                     <div class="card">
                         <div class="card-body">
-                          <h4 class="card-title">Slider Text</h4>
+                          <h4 class="card-title">Hero Text</h4>
                           <!-- <p class="text-muted m-b-15 f-s-12">Use the input classes on an <code>.input-default, input-flat, .input-rounded</code> for Default input.</p> -->
                           <div class="basic-form">
                             <form>
                                 <div class="d-flex gap-3 align-items-center">
-                                    <div class="form-group w-100">
-                                        <label for="">Select Slider</label>
-                                        <select class="form-control" name="" id="">
-                                            <option selected value="one">One</option>
-                                            <option value="two">Two</option>
-                                            <option value="three">Three</option>
-                                        </select>
-                                    </div>
+                                    
                                       <div class="form-group w-100">
                                         <label for="know-title">Title</label>
                                         <input
@@ -454,15 +446,7 @@
                                         />
                                       </div>
                                 </div>
-                              <div class="form-group">
-                                <label for="know-title">Description</label>
-                                <textarea
-                                class="form-control h-150px"
-                                rows="6"
-                                id="know-desc"
-                                placeholder="Description"
-                              ></textarea>
-                              </div>
+                              
           
                               <button type="button" class="btn btn-primary">
                                 Update
@@ -472,17 +456,17 @@
                         </div>
                       </div>
 
-
+                      
                       <div class="card">
                         <div class="card-body">
-                          <h4 class="card-title">Core Feature</h4>
+                          <h4 class="card-title">Tour Packages</h4>
                           <!-- <p class="text-muted m-b-15 f-s-12">Use the input classes on an <code>.input-default, input-flat, .input-rounded</code> for Default input.</p> -->
                           <div class="basic-form">
                             <form class="mb-3">
                               <div class="form-group">
                                 <label for="tour-title">Title</label>
                                 <input
-                                  id="deals-title"
+                                  id="tour-title"
                                   type="text"
                                   class="form-control input-default"
                                   placeholder="Title "
@@ -494,7 +478,7 @@
                                 <textarea
                                   class="form-control h-150px"
                                   rows="6"
-                                  id="deals-desc"
+                                  id="tour-desc"
                                   placeholder="Description"
                                 ></textarea>
                               </div>
@@ -504,11 +488,11 @@
                               </button>
                             </form>
                             <form action="">
-                              <h4 class="card-title mt-4">Feature Details</h4>
+                              <h4 class="card-title mt-4">Tour Details</h4>
                               <div class="">
                                 <div class="d-flex align-items-center gap-3">
                                   <div class="form-group w-50 mb-2">
-                                    <label for="">Feature Name</label>
+                                    <label for="">Country Name</label>
                                     <input
                                       id=""
                                       type="text"
@@ -517,7 +501,7 @@
                                     />
                                   </div>
                                   <div class="form-group w-50 mb-2">
-                                    <label for="">Feature Description</label>
+                                    <label for="">Tour Name</label>
                                     <input
                                       id=""
                                       type="text"
@@ -526,7 +510,7 @@
                                     />
                                   </div>
                                   <div class="form-group w-50 mb-2">
-                                    <label for="">Feature Review</label>
+                                    <label for="">Tour Description</label>
                                     <input
                                       id=""
                                       type="text"
@@ -535,131 +519,141 @@
                                     />
                                   </div>
                                 </div>
-                                
+                                <div class="d-flex align-items-center gap-3">
+                                  <div class="form-group w-50 mb-2">
+                                    <label for="">Tour Package Price ($ / Person)</label>
+                                    <input
+                                      id=""
+                                      type="number"
+                                      class="form-control input-default"
+                                      placeholder="Tour Package Price"
+                                    />
+                                  </div>
+                                  <div class="form-group w-50 mb-2">
+                                    <label for="tour-img">Tour Duration (Days)</label>
+                                    <input
+                                      id=""
+                                      type="number"
+                                      class="form-control input-default"
+                                      placeholder="Tour Duration (Days)"
+                                    />
+                                  </div>
+                                  <div class="form-group w-50 mb-2">
+                                    <label for="tour-img">Banner</label>
+                                    <input
+                                      type="file"
+                                      name="tour-img"
+                                      id="tour-img"
+                                      class="form-control input-default"
+                                    />
+                                  </div>
+                                </div>
                               </div>
                               <button type="button" class="btn btn-primary">
-                                Add Feature
+                                Add Tour
                               </button>
                             </form>
                           </div>
                         </div>
                       </div>
-
                       
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Our Excellent Guides</h4>
-                  <!-- <p class="text-muted m-b-15 f-s-12">Use the input classes on an <code>.input-default, input-flat, .input-rounded</code> for Default input.</p> -->
-                  <div class="basic-form">
-                    <form class="mb-3">
-                      <div class="form-group">
-                        <label for="tour-title">Title</label>
-                        <input
-                          id="deals-title"
-                          type="text"
-                          class="form-control input-default"
-                          placeholder="Title "
-                        />
-                      </div>
-  
-                      <div class="form-group">
-                        <label for="tour-desc">Description</label>
-                        <textarea
-                          class="form-control h-150px"
-                          rows="6"
-                          id="deals-desc"
-                          placeholder="Description"
-                        ></textarea>
-                      </div>
-  
-                      <button type="button" class="btn btn-primary">
-                        Update
-                      </button>
-                    </form>
-                    <form action="">
-                      <h4 class="card-title mt-4">Add Member</h4>
-                      <div class="">
-                        <div class="d-flex align-items-center gap-3">
-                          <div class="form-group w-50 mb-2">
-                            <label for="">Name</label>
-                            <input
-                              id=""
-                              type="text"
-                              class="form-control input-default"
-                              placeholder="Name "
-                            />
-                          </div>
-                          <div class="form-group w-50 mb-2">
-                            <label for="">Position</label>
-                            <select class="form-control" name="" id="">
-                              <option selected value="dev">Developer</option>
-                              <option value="ceo">CEO</option>
-                          </select>
-                          </div>
-                          <div class="form-group w-50 mb-2">
-                            <label for="team-profile">Profile</label>
-                            <input
-                              type="file"
-                              name="team-profile"
-                              id="team-profile"
-                              class="form-control input-default"
-                            />
+             
+                      <div class="card">
+                        <div class="card-body">
+                          <h4 class="card-title">Video Section</h4>
+                          <!-- <p class="text-muted m-b-15 f-s-12">Use the input classes on an <code>.input-default, input-flat, .input-rounded</code> for Default input.</p> -->
+                          <div class="basic-form">
+                            <form class="mb-3">
+                              <div class="form-group">
+                                <label for="tour-titles">Title</label>
+                                <input
+                                  id="deals-titles"
+                                  type="text"
+                                  class="form-control input-default"
+                                  placeholder="Title "
+                                />
+                              </div>
+          
+                              <div class="form-group">
+                                <label for="tour-descx">Description</label>
+                                <textarea
+                                  class="form-control h-150px"
+                                  rows="6"
+                                  id="deals-descx"
+                                  placeholder="Description"
+                                ></textarea>
+                              </div>
+        
+                              <div class="form-group">
+                                <label for="video-url">Video URL</label>
+                                <input
+                                  id="video-url"
+                                  type="text"
+                                  class="form-control input-default"
+                                  placeholder="Title "
+                                />
+                              </div>
+          
+                              <button type="button" class="btn btn-primary">
+                                Update
+                              </button>
+                            </form>
+                           
                           </div>
                         </div>
-                        
-                        
                       </div>
-                      <button type="button" class="btn btn-primary">
-                        Add Member
-                      </button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-
 
               
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Our Awesome Client</h4>
-                  <!-- <p class="text-muted m-b-15 f-s-12">Use the input classes on an <code>.input-default, input-flat, .input-rounded</code> for Default input.</p> -->
-                  <div class="basic-form">
-                    <form class="mb-3 ">
-                      <div class="d-flex align-items-center gap-3">
-                        <div class="form-group w-100  mb-2">
-                            <label for="tour-title">Title</label>
-                            <input
-                              id="deals-title"
-                              type="text"
-                              class="form-control input-default"
-                              placeholder="Title "
-                            />
+           
+
+
+
+                      <div class="card">
+                        <div class="card-body">
+                          <h4 class="card-title">Our Awesome Partners</h4>
+                          <!-- <p class="text-muted m-b-15 f-s-12">Use the input classes on an <code>.input-default, input-flat, .input-rounded</code> for Default input.</p> -->
+                          <div class="basic-form">
+                            <form class="mb-3 ">
+                              <div class="d-flex align-items-center gap-3">
+                                <div class="form-group w-100  mb-2">
+                                    <label for="tour-title">Title</label>
+                                    <input
+                                      id="deals-title"
+                                      type="text"
+                                      class="form-control input-default"
+                                      placeholder="Title "
+                                    />
+                                  </div>
+        
+                                <div class="form-group w-100  mb-2">
+                                    <label for="tour-title">Slogan</label>
+                                    <input
+                                      id="deals-title"
+                                      type="text"
+                                      class="form-control input-default"
+                                      placeholder="Slogan "
+                                    />
+                                  </div>
+              
+                                  <div class="form-group w-100 mb-2">
+                                    <label for="client-logo">Client Logo</label>
+                                    <input
+                                      type="file"
+                                      name="client-logo"
+                                      id="client-logo"
+                                      class="form-control input-default"
+                                    />
+                                  </div>
+                              </div>
+          
+                              <button type="button" class="btn btn-primary">
+                                Add
+                              </button>
+                            </form>
+                            
                           </div>
-      
-                          <div class="form-group w-100 mb-2">
-                            <label for="client-logo">Client Logo</label>
-                            <input
-                              type="file"
-                              name="client-logo"
-                              id="client-logo"
-                              class="form-control input-default"
-                            />
-                          </div>
+                        </div>
                       </div>
-  
-                      <button type="button" class="btn btn-primary">
-                        Add
-                      </button>
-                    </form>
-                    
-                  </div>
-                </div>
-              </div>
-
-
-
-
-
 
 
 
