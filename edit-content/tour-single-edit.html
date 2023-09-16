@@ -540,7 +540,7 @@
                               </div>
           
                               <button type="button" class="btn btn-primary">
-                                Update
+                                Add
                               </button>
                             </form>
 
@@ -626,11 +626,97 @@
                           </div>
                         </div>
                       </div>
-
+                      <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Tour List</h4>
+                            <div class="table-responsive">
+                                <table class="table table-bordered verticle-middle">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Title</th>
+                                            <th scope="col">Description</th>
+                                            <th scope="col">Date</th>
+                                            <th scope="col">Country</th>
+                                            <th scope="col">Price</th>
+                                            <th scope="col">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Air Conditioner</td>
+                                            <td>
+                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ducimus assumenda pariatur facilis...
+                                            </td>
+                                            <td>Apr 20,2018</td>
+                                            <td>Australia</td>
+                                            <td>192$</td>
+                                            <td><span><a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil color-muted m-r-5"></i> </a><a href="#" data-toggle="tooltip" data-placement="top" title="Close"><i class="fa fa-close color-danger"></i></a></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Air Conditioner</td>
+                                            <td>
+                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ducimus assumenda pariatur facilis...
+                                            </td>
+                                            <td>Apr 20,2018</td>
+                                            <td>Australia</td>
+                                            <td>192$</td>
+                                            <td><span><a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil color-muted m-r-5"></i> </a><a href="#" data-toggle="tooltip" data-placement="top" title="Close"><i class="fa fa-close color-danger"></i></a></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Air Conditioner</td>
+                                            <td>
+                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ducimus assumenda pariatur facilis...
+                                            </td>
+                                            <td>Apr 20,2018</td>
+                                            <td>Australia</td>
+                                            <td>192$</td>
+                                            <td><span><a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil color-muted m-r-5"></i> </a><a href="#" data-toggle="tooltip" data-placement="top" title="Close"><i class="fa fa-close color-danger"></i></a></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Air Conditioner</td>
+                                            <td>
+                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ducimus assumenda pariatur facilis...
+                                            </td>
+                                            <td>Apr 20,2018</td>
+                                            <td>Australia</td>
+                                            <td>192$</td>
+                                            <td><span><a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil color-muted m-r-5"></i> </a><a href="#" data-toggle="tooltip" data-placement="top" title="Close"><i class="fa fa-close color-danger"></i></a></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Air Conditioner</td>
+                                            <td>
+                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ducimus assumenda pariatur facilis...
+                                            </td>
+                                            <td>Apr 20,2018</td>
+                                            <td>Australia</td>
+                                            <td>192$</td>
+                                            <td><span><a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil color-muted m-r-5"></i> </a><a href="#" data-toggle="tooltip" data-placement="top" title="Close"><i class="fa fa-close color-danger"></i></a></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Air Conditioner</td>
+                                            <td>
+                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ducimus assumenda pariatur facilis...
+                                            </td>
+                                            <td>Apr 20,2018</td>
+                                            <td>Australia</td>
+                                            <td>192$</td>
+                                            <td><span><a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil color-muted m-r-5"></i> </a><a href="#" data-toggle="tooltip" data-placement="top" title="Close"><i class="fa fa-close color-danger"></i></a></span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                       
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">FAQ Section</h4>
+                  <h4 class="card-title">Itinerary</h4>
                   <!-- <p class="text-muted m-b-15 f-s-12">Use the input classes on an <code>.input-default, input-flat, .input-rounded</code> for Default input.</p> -->
                   <div class="basic-form">
                     <form class="mb-3">
@@ -659,15 +745,26 @@
                       </button>
                     </form>
                     <form action="">
-                      <h4 class="card-title mt-4">FAQ Items</h4>
-                      <div class="form-group">
-                        <label for="tour-title">Title</label>
-                        <input
-                          id="deals-title"
-                          type="text"
-                          class="form-control input-default"
-                          placeholder="Title "
-                        />
+                      <h4 class="card-title mt-4">Itinerary Items</h4>
+                      <div class="d-flex gap-3 align-items-center">
+                        <div class="form-group w-100">
+                          <label for="tour-title">Day</label>
+                          <input
+                            id="deals-title"
+                            type="number"
+                            class="form-control input-default"
+                            placeholder="Title "
+                          />
+                        </div>
+                        <div class="form-group w-100">
+                          <label for="tour-title">Title</label>
+                          <input
+                            id="deals-title"
+                            type="text"
+                            class="form-control input-default"
+                            placeholder="Title "
+                          />
+                        </div>
                       </div>
   
                       <div class="form-group">
