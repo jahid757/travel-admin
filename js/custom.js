@@ -1,9 +1,9 @@
 "use strict"
 
-function renderItineraryForm(e){
+function renderItineraryForm(){
+    let html=``;
     const numberOfItineraryItems = document.getElementById('optionId').value;
     const parent = document.getElementById('itinerary_form')
-    let html;
     for (let i = 0; i < numberOfItineraryItems; i++) {
         html+=`
         <h5>Itinerary <span>${i+1}</span></h5>
