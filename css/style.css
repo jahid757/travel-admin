@@ -1415,7 +1415,9 @@ pre {
   -ms-overflow-style: -ms-autohiding-scrollbar; }
   /* .table-responsive > .table-bordered {
     border: 0; } */
-
+.table img{
+  width: 100px;
+}
 .form-control {
   display: block;
   width: 100%;

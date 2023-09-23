@@ -548,47 +548,6 @@
 
                             <form action="">
                               <h4 class="card-title mt-4">Tour Details</h4>
-                              <div class="">
-                                <div class="d-flex align-items-center gap-3">
-                                  <div class="form-group w-50 mb-2">
-                                    <label for="">Departure & Return Location</label>
-                                    <input
-                                      id=""
-                                      type="text"
-                                      class="form-control input-default"
-                                      placeholder="Departure & Return Location"
-                                    />
-                                  </div>
-                                  <div class="form-group w-50 mb-2">
-                                    <label for="">Bedroom</label>
-                                    <input
-                                      id=""
-                                      type="number"
-                                      class="form-control input-default"
-                                      placeholder="Bedroom"
-                                    />
-                                  </div>
-                                  <div class="form-group w-50 mb-2">
-                                    <label for="">Departure Time</label>
-                                    <input
-                                      id=""
-                                      type="text"
-                                      class="form-control input-default"
-                                      placeholder="Departure Time"
-                                    />
-                                  </div>
-                                  <div class="form-group w-50 mb-2">
-                                    <label for="">Departure Time</label>
-                                    <input
-                                      id=""
-                                      type="text"
-                                      class="form-control input-default"
-                                      placeholder="Departure Time"
-                                    />
-                                  </div>
-                                </div>
-                                
-                              </div>
                               <div class="d-flex align-items-center gap-3">
                                 <div class="d-flex align-items-center gap-3 w-50">
                                     <div class="form-group mb-2  w-100">
@@ -607,12 +566,12 @@
                                   </div>
                                   <div class="d-flex align-items-center gap-3 w-50">
                                     <div class="form-group mb-2 w-100">
-                                        <label for="">Departure & Return Location</label>
+                                        <label for="">What to accept</label>
                                         <input
                                           id=""
                                           type="text"
                                           class="form-control input-default"
-                                          placeholder="Departure & Return Location"
+                                          placeholder="Exclusion"
                                         />
                                       </div>
                                       <div class="">
@@ -751,13 +710,25 @@
                       <div class="d-flex gap-3 align-items-center">
                         <div class="form-group w-100">
                           <label for="tour-title">Day</label>
-                          <input
-                            id="deals-title"
-                            type="number"
-                            class="form-control input-default"
-                            placeholder="Title "
-                          />
+                          <select onchange="renderItineraryForm()" class="form-control" name="" id="optionId">
+                            <option selected value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                            <option value="4">04</option>
+                            <option value="5">05</option>
+                            <option value="6">06</option>
+                            <option value="7">07</option>
+                            <option value="9">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
                         </div>
+                        
+                      </div>
+                      
+                      <div id="itinerary_form">
+                        <h5>Itinerary <span>1</span></h5>
                         <div class="form-group w-100">
                           <label for="tour-title">Title</label>
                           <input
@@ -767,17 +738,17 @@
                             placeholder="Title "
                           />
                         </div>
+                        <div class="form-group">
+                          <label for="tour-desc">Description</label>
+                          <textarea
+                            class="form-control h-150px"
+                            rows="6"
+                            id="deals-desc"
+                            placeholder="Description"
+                          ></textarea>
+                        </div>
                       </div>
-  
-                      <div class="form-group">
-                        <label for="tour-desc">Description</label>
-                        <textarea
-                          class="form-control h-150px"
-                          rows="6"
-                          id="deals-desc"
-                          placeholder="Description"
-                        ></textarea>
-                      </div>
+
                       <button type="button" class="btn btn-primary">
                         Add Items
                       </button>
@@ -958,6 +929,7 @@
     <!--**********************************
         Scripts
     ***********************************-->
+    <script src="../js/custom.js"></script>
     <script src="../plugins/common/common.min.js"></script>
     <script src="../js/custom.min.js"></script>
     <script src="../js/settings.js"></script>
