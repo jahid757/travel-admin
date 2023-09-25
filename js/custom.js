@@ -6,7 +6,7 @@ function renderItineraryForm(){
     const parent = document.getElementById('itinerary_form')
     for (let i = 0; i < numberOfItineraryItems; i++) {
         html+=`
-        <h5>Itinerary <span>${i+1}</span></h5>
+        <h5>Day <span>${i+1}</span></h5>
         <div class="form-group w-100">
           <label for="tour-title">Title</label>
           <input

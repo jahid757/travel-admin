@@ -481,16 +481,7 @@
                           <!-- <p class="text-muted m-b-15 f-s-12">Use the input classes on an <code>.input-default, input-flat, .input-rounded</code> for Default input.</p> -->
                           <div class="basic-form">
                             <form class="mb-3">
-                                <div class="d-flex gap-3 align-items-center">
-                                    <div class="form-group w-100">
-                                        <label for="">Select Feature</label>
-                                        <select class="form-control" name="" id="">
-                                            <option selected value="one">One</option>
-                                            <option value="two">Two</option>
-                                            <option value="three">Three</option>
-                                            <option value="Four">Four</option>
-                                        </select>
-                                    </div>
+                                    
                                   <div class="form-group w-100">
                                     <label for="tour-title">Title</label>
                                     <input
@@ -500,7 +491,6 @@
                                       placeholder="Title "
                                     />
                                   </div>
-                                </div>
           
                               <div class="form-group">
                                 <label for="tour-desc">Description</label>
@@ -521,21 +511,38 @@
                               <div class="">
                                 <div class="d-flex align-items-center gap-3">
                                   <div class="form-group w-50 mb-2">
+                                    <label for="">Select Feature</label>
+                                    <select class="form-control" name="" id="">
+                                        <option selected value="efficiency"> Efficiency</option>
+                                        <option value="savings">
+                                          Savings</option>
+                                        <option value="safety">
+                                          Safety - Maximum Priority</option>
+                                        <option value="why_choose_TFB">
+                                          Why Choose TFB?</option>
+                                    </select>
+                                </div>
+
+                                  <div class="form-group w-50 mb-2">
                                     <label for="">Feature Name</label>
                                     <input
                                       id=""
                                       type="text"
                                       class="form-control input-default"
-                                      placeholder="Country Name "
+                                      placeholder="Feature Name "
                                     />
                                   </div>
+                                  
+                                </div>
+                                <div class="d-flex align-items-center gap-3">
+                                  
                                   <div class="form-group w-50 mb-2">
                                     <label for="">Feature Description</label>
                                     <input
                                       id=""
                                       type="text"
                                       class="form-control input-default"
-                                      placeholder="Tour Name "
+                                      placeholder="Feature Description "
                                     />
                                   </div>
                                   <div class="form-group w-50 mb-2">
@@ -544,7 +551,7 @@
                                       id=""
                                       type="text"
                                       class="form-control input-default"
-                                      placeholder="Tour Description"
+                                      placeholder="Feature Review"
                                     />
                                   </div>
                                 </div>
