@@ -256,11 +256,11 @@
                             <li><a href="./home-edit.html">Home</a></li>
                             <li><a href="./about-edit.html">About Us</a></li>
                             <li><a href="./holidays-edit.html">Holidays</a></li>
-                            
                             <li><a href="./blog-list-edit.html">Blog List</a></li>
                             <li><a href="./blog-single-edit.html">Blog Single</a></li>
                             <li><a href="./tour-grid-edit.html">Tour Grid</a></li>
                             <li><a href="./tour-single-edit.html">Tour Single</a></li>
+
                             
                         </ul>
                     </li>
@@ -425,51 +425,20 @@
             <div class="container-fluid">
                 <div class="col-lg-12">
 
-                    <!-- <div class="card">
-                        <div class="card-body">
-                          <h4 class="card-title">Hero Text</h4>
-                          <div class="basic-form">
-                            <form>
-                                <div class="d-flex gap-3 align-items-center">
-                                    
-                                      <div class="form-group w-100">
-                                        <label for="know-title">Title</label>
-                                        <input
-                                          type="text"
-                                          class="form-control input-default"
-                                          placeholder="Title"
-                                        />
-                                      </div>
-                                      <div class="form-group w-100">
-                                        <label for="know-title">Subtitle</label>
-                                        <input
-                                          type="text"
-                                          class="form-control input-default"
-                                          placeholder="Subtitle"
-                                        />
-                                      </div>
-                                </div>
-                              
-          
-                              <button type="button" class="btn btn-primary">
-                                Update
-                              </button>
-                            </form>
-                          </div>
-                        </div>
-                      </div> -->
 
-                      
+                  
+
+
                       <div class="card">
                         <div class="card-body">
-                          <h4 class="card-title">Tour Packages</h4>
+                          <h4 class="card-title">Create Blog</h4>
                           <!-- <p class="text-muted m-b-15 f-s-12">Use the input classes on an <code>.input-default, input-flat, .input-rounded</code> for Default input.</p> -->
                           <div class="basic-form">
                             <form class="mb-3">
                               <div class="form-group">
                                 <label for="tour-title">Title</label>
                                 <input
-                                  id="tour-title"
+                                  id="deals-title"
                                   type="text"
                                   class="form-control input-default"
                                   placeholder="Title "
@@ -481,97 +450,98 @@
                                 <textarea
                                   class="form-control h-150px"
                                   rows="6"
-                                  id="tour-desc"
+                                  id="deals-desc"
                                   placeholder="Description"
                                 ></textarea>
                               </div>
-          
-                              <button type="button" class="btn btn-primary">
-                                Update
-                              </button>
-                            </form>
-                            <form action="">
-                              <h4 class="card-title mt-4">Tour Details</h4>
-                              <div class="">
-                                <div class="d-flex align-items-center gap-3">
-                                  <div class="form-group w-50 mb-2">
-                                    <label for="">Country Name</label>
+
+                              <div class="d-flex gap-3 align-items-center">
+                                
+                                  <div class="form-group  mb-2 w-50">
+                                    <label for="tour-title">Writer</label>
                                     <input
-                                      id=""
                                       type="text"
                                       class="form-control input-default"
-                                      placeholder="Country Name "
+                                      placeholder="Author Name"
                                     />
                                   </div>
-                                  <div class="form-group w-50 mb-2">
-                                    <label for="">Tour Name</label>
+                                  <div class="form-group  mb-2 w-50">
+                                    <label for="tour-title">Categories</label>
+                                    <select class="form-control" name="" id="">
+                                        <option selected value="Travel">Travel</option>
+                                        <option value="Weeding">Health</option>
+                                        <option value="Tech">Tech</option>
+                                        <option value="wildlife">Wildlife</option>
+                                        <option value="others">others</option>
+                                    </select>
+                                  </div>
+                                  
+                                  
+                                  
+                                  
+                              </div>
+                              <div class="d-flex gap-3 align-items-center">
+                                <div class="form-group  mb-2 w-50">
+                                    <label for="tour-title">Tag (Separated by comma)</label>
                                     <input
-                                      id=""
                                       type="text"
                                       class="form-control input-default"
-                                      placeholder="Tour Name "
+                                      placeholder="Max People "
                                     />
                                   </div>
-                                  <div class="form-group w-50 mb-2">
-                                    <label for="">Tour Description</label>
-                                    <input
-                                      id=""
-                                      type="text"
-                                      class="form-control input-default"
-                                      placeholder="Tour Description"
-                                    />
-                                  </div>
-                                </div>
-                                <div class="d-flex align-items-center gap-3">
-                                  <div class="form-group w-50 mb-2">
-                                    <label for="">Tour Package Price ($ / Person)</label>
-                                    <input
-                                      id=""
-                                      type="number"
-                                      class="form-control input-default"
-                                      placeholder="Tour Package Price"
-                                    />
-                                  </div>
-                                  <div class="form-group w-50 mb-2">
-                                    <label for="tour-img">Tour Duration (Days)</label>
-                                    <input
-                                      id=""
-                                      type="number"
-                                      class="form-control input-default"
-                                      placeholder="Tour Duration (Days)"
-                                    />
-                                  </div>
-                                  <div class="form-group w-50 mb-2">
-                                    <label for="tour-img">Banner</label>
+                                <div class="form-group w-50 mb-2">
+                                    <label for="banner">Banner</label>
                                     <input
                                       type="file"
-                                      name="tour-img"
-                                      id="tour-img"
+                                      name="banner"
+                                      id="banner"
                                       class="form-control input-default"
                                     />
                                   </div>
-                                </div>
+                                  <!-- <div class="form-group w-50 mb-2">
+                                    <label for="banner">2nd Banner</label>
+                                    <input
+                                      type="file"
+                                      name="banner"
+                                      id="banner"
+                                      class="form-control input-default"
+                                    />
+                                  </div>
+                                  <div class="form-group w-50 mb-2">
+                                    <label for="banner">3rd Banner</label>
+                                    <input
+                                      type="file"
+                                      name="banner"
+                                      id="banner"
+                                      class="form-control input-default"
+                                    />
+                                  </div> -->
+                                  
+                                  
                               </div>
+                              
+          
                               <button type="button" class="btn btn-primary">
-                                Add Tour
+                                Create
                               </button>
                             </form>
+
+                            
                           </div>
                         </div>
                       </div>
-                      
                       <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Tour List</h4>
+                            <h4 class="card-title">Blog List</h4>
                             <div class="table-responsive">
                                 <table class="table table-bordered verticle-middle">
                                     <thead>
                                         <tr>
                                             <th scope="col">Title</th>
                                             <th scope="col">Description</th>
+                                            <th scope="col">Author</th>
+                                            <th scope="col">Categories</th>
                                             <th scope="col">Date</th>
-                                            <th scope="col">Country</th>
-                                            <th scope="col">Price</th>
                                             <th scope="col">Action</th>
                                         </tr>
                                     </thead>
@@ -581,9 +551,9 @@
                                             <td>
                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ducimus assumenda pariatur facilis...
                                             </td>
-                                            <td>Apr 20,2018</td>
+                                            <td>John</td>
                                             <td>Australia</td>
-                                            <td>192$</td>
+                                            <td>Apr 20,2023</td>
                                             <td><span><a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil color-muted m-r-5"></i> </a><a href="#" data-toggle="tooltip" data-placement="top" title="Close"><i class="fa fa-close color-danger"></i></a></span>
                                             </td>
                                         </tr>
@@ -592,9 +562,9 @@
                                             <td>
                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ducimus assumenda pariatur facilis...
                                             </td>
-                                            <td>Apr 20,2018</td>
+                                            <td>John</td>
                                             <td>Australia</td>
-                                            <td>192$</td>
+                                            <td>Apr 20,2023</td>
                                             <td><span><a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil color-muted m-r-5"></i> </a><a href="#" data-toggle="tooltip" data-placement="top" title="Close"><i class="fa fa-close color-danger"></i></a></span>
                                             </td>
                                         </tr>
@@ -603,9 +573,9 @@
                                             <td>
                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ducimus assumenda pariatur facilis...
                                             </td>
-                                            <td>Apr 20,2018</td>
+                                            <td>John</td>
                                             <td>Australia</td>
-                                            <td>192$</td>
+                                            <td>Apr 20,2023</td>
                                             <td><span><a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil color-muted m-r-5"></i> </a><a href="#" data-toggle="tooltip" data-placement="top" title="Close"><i class="fa fa-close color-danger"></i></a></span>
                                             </td>
                                         </tr>
@@ -614,9 +584,9 @@
                                             <td>
                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ducimus assumenda pariatur facilis...
                                             </td>
-                                            <td>Apr 20,2018</td>
+                                            <td>John</td>
                                             <td>Australia</td>
-                                            <td>192$</td>
+                                            <td>Apr 20,2023</td>
                                             <td><span><a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil color-muted m-r-5"></i> </a><a href="#" data-toggle="tooltip" data-placement="top" title="Close"><i class="fa fa-close color-danger"></i></a></span>
                                             </td>
                                         </tr>
@@ -625,9 +595,9 @@
                                             <td>
                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ducimus assumenda pariatur facilis...
                                             </td>
-                                            <td>Apr 20,2018</td>
+                                            <td>John</td>
                                             <td>Australia</td>
-                                            <td>192$</td>
+                                            <td>Apr 20,2023</td>
                                             <td><span><a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil color-muted m-r-5"></i> </a><a href="#" data-toggle="tooltip" data-placement="top" title="Close"><i class="fa fa-close color-danger"></i></a></span>
                                             </td>
                                         </tr>
@@ -636,9 +606,9 @@
                                             <td>
                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ducimus assumenda pariatur facilis...
                                             </td>
-                                            <td>Apr 20,2018</td>
+                                            <td>John</td>
                                             <td>Australia</td>
-                                            <td>192$</td>
+                                            <td>Apr 20,2023</td>
                                             <td><span><a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil color-muted m-r-5"></i> </a><a href="#" data-toggle="tooltip" data-placement="top" title="Close"><i class="fa fa-close color-danger"></i></a></span>
                                             </td>
                                         </tr>
@@ -647,103 +617,21 @@
                             </div>
                         </div>
                     </div>
+                      
              
-                      <div class="card">
-                        <div class="card-body">
-                          <h4 class="card-title">Video Section</h4>
-                          <!-- <p class="text-muted m-b-15 f-s-12">Use the input classes on an <code>.input-default, input-flat, .input-rounded</code> for Default input.</p> -->
-                          <div class="basic-form">
-                            <form class="mb-3">
-                              <div class="form-group">
-                                <label for="tour-titles">Title</label>
-                                <input
-                                  id="deals-titles"
-                                  type="text"
-                                  class="form-control input-default"
-                                  placeholder="Title "
-                                />
-                              </div>
-          
-                              <div class="form-group">
-                                <label for="tour-descx">Description</label>
-                                <textarea
-                                  class="form-control h-150px"
-                                  rows="6"
-                                  id="deals-descx"
-                                  placeholder="Description"
-                                ></textarea>
-                              </div>
-        
-                              <div class="form-group">
-                                <label for="video-url">Video URL</label>
-                                <input
-                                  id="video-url"
-                                  type="text"
-                                  class="form-control input-default"
-                                  placeholder="Title "
-                                />
-                              </div>
-          
-                              <button type="button" class="btn btn-primary">
-                                Update
-                              </button>
-                            </form>
-                           
-                          </div>
-                        </div>
-                      </div>
+
 
               
-           
-
-
-
-                      <div class="card">
-                        <div class="card-body">
-                          <h4 class="card-title">Our Awesome Partners</h4>
-                          <!-- <p class="text-muted m-b-15 f-s-12">Use the input classes on an <code>.input-default, input-flat, .input-rounded</code> for Default input.</p> -->
-                          <div class="basic-form">
-                            <form class="mb-3 ">
-                              <div class="d-flex align-items-center gap-3">
-                                <div class="form-group w-100  mb-2">
-                                    <label for="tour-title">Title</label>
-                                    <input
-                                      id="deals-title"
-                                      type="text"
-                                      class="form-control input-default"
-                                      placeholder="Title "
-                                    />
-                                  </div>
-        
-                                <div class="form-group w-100  mb-2">
-                                    <label for="tour-title">Slogan</label>
-                                    <input
-                                      id="deals-title"
-                                      type="text"
-                                      class="form-control input-default"
-                                      placeholder="Slogan "
-                                    />
-                                  </div>
+            
               
-                                  <div class="form-group w-100 mb-2">
-                                    <label for="client-logo">Client Logo</label>
-                                    <input
-                                      type="file"
-                                      name="client-logo"
-                                      id="client-logo"
-                                      class="form-control input-default"
-                                    />
-                                  </div>
-                              </div>
-          
-                              <button type="button" class="btn btn-primary">
-                                Add
-                              </button>
-                            </form>
-                            
-                          </div>
-                        </div>
-                      </div>
+              
+
+             
+
+
+
+
+
 
 
 
